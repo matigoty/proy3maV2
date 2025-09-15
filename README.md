@@ -14,7 +14,6 @@ CREATE TABLE administradores (
 -- Insertar admin por defecto
 INSERT INTO administradores (adm_email, adm_name, adm_pass) VALUES 
 ('nuevo_admin@example.com', 'Administrador Principal', '$2y$10$dQjn.j1QNKpJn4n8QWLK0.Gx6u9kLR6eB14ql9vVUJYwBesjfx2lK');
---la contraseña sin hash es mi_contraseña_segura
 
 -- Tabla de usuarios
 CREATE TABLE usuario (
