@@ -1,4 +1,5 @@
 -- Base de datos
+--contraseña administrador: mi_contraseña_segura
 
 CREATE DATABASE IF NOT EXISTS base_usuarios; 
 USE base_usuarios; 
